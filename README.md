@@ -1,5 +1,5 @@
 # Raspi_Network_Check
-The Raspberry Pi tends to drop network connection which is a real pain when you're trying to do anything that has the RPi running constantly from a remote location, like our HomeAssitant.
+The Raspberry Pi tends to drop network connection which is a real pain when you're trying to do anything that has the RPi running constantly from a remote location, like my HomeAssitant Setup with AdguardHome.
 
 However, it's possible to detect Ethernet or Wifi connection loss and perform upon it. 
 The first Script do a Check (ping) and push the eth0 down and then up, if this dont work, the second script do a full system reboot.
