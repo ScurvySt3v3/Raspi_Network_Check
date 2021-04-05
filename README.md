@@ -3,6 +3,7 @@
 I took the idea from Thijs Bernolet and improved it.
 The original article can be found here: https://weworkweplay.com/play/rebooting-the-raspberry-pi-when-it-loses-wireless-connection-wifi/
 
+
 The Raspberry Pi tends to drop network connection which is a real pain when you're trying to do anything that has the RPi running constantly from a remote location, like my HomeAssitant Setup with AdguardHome.
 
 However, it's possible to detect Ethernet or Wifi connection loss and perform upon it. 
