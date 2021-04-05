@@ -1,7 +1,8 @@
 # Raspi_Network_Check
 
-I took the idea from Thijs Bernolet and improved it.
-The original article can be found here: https://weworkweplay.com/play/rebooting-the-raspberry-pi-when-it-loses-wireless-connection-wifi/
+## Introduction
+#### I took the idea from Thijs Bernolet and improved it.
+#### The original article can be found here: https://weworkweplay.com/play/rebooting-the-raspberry-pi-when-it-loses-wireless-connection-wifi/
 
 
 The Raspberry Pi tends to drop network connection which is a real pain when you're trying to do anything that has the RPi running constantly from a remote location, like my HomeAssitant Setup with AdguardHome.
@@ -9,6 +10,7 @@ The Raspberry Pi tends to drop network connection which is a real pain when you'
 However, it's possible to detect Ethernet or Wifi connection loss and perform upon it. 
 The first Script do a Check (ping) and push the eth0 down and then up, if this dont work, the second script do a full system reboot.
 
+## How to Setup the Scripts
 Copy the scripts "checketh.sh" and "checketh_reboot.sh" to "/usr/local/bin/"
 Edit your Router IP if necessary.
 
@@ -27,5 +29,5 @@ Add the following line:
 
 
 
-
+## How to test the scripts easily.
 If you want to test it, you can use the IP address of your cell phone instead of your router IP address. If you now deactivate the wifi on your cell phone, the Raspberry should restart after 5 minutes. 
